@@ -1,0 +1,11 @@
+﻿@using EjemploControllers.Models
+@model Usuario
+
+<h1>Crear usuario</h1>
+@using (Html.BeginForm("Create", "Usuarios", FormMethod.Post,
+        new { @class = "", role = "form" }))
+{
+    @Html.ValidationSummary()
+
+    @Html.Partial("_Form", Model)
+}

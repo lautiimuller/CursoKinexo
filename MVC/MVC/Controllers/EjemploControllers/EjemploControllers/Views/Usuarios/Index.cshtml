@@ -1,0 +1,16 @@
+﻿@using EjemploControllers.Models
+@model IList<Usuario>
+
+<h1>Usuarios</h1>
+@Html.ActionLink("Crear", "Create")
+
+<ul>
+    @foreach (var usuario in Model)
+    {
+        <li>
+            @usuario.Nombre
+            @Html.ActionLink("Editar", "Edit", new { id = usuario.Id })
+        </li>
+
+    }
+</ul>

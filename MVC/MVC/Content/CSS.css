@@ -1,0 +1,46 @@
+﻿body {
+    background-image:url(../Content/frente.jpg);
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+  
+}
+
+h2{
+    text-shadow: 4px 3px black;
+}
+p{
+    text-size-adjust:10%
+}
+.pie {
+    background-image: url(../Content/images.jpg);
+    background-size: 20px;
+    background-position-x: 600px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 360px;
+    bottom: 0;
+    left: 450px;
+    right: 0;
+    height: 20px;
+    color: white;
+}
+.caja {
+    background-image:url(../Content/logo.jpg);
+    background-size: 90px;
+    background-repeat:no-repeat;
+    background-position-x:right;
+    top: 0;
+    bottom: 100%;
+    left: ;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align:center;
+}
+footer{
+    background-color:black;
+}
+
+
+

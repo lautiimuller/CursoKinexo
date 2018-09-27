@@ -1,0 +1,26 @@
+﻿@model string
+
+<style>
+    .rojo {
+        color: red;
+    }
+</style>
+
+<h3>
+    Invocada por
+</h3>
+<ul>
+    @foreach (var item in Model)
+    {
+        if (item != ' ')
+        {
+            var esVocal = item == 'a'
+                || item == 'e'
+                || item == 'i'
+                || item == 'o'
+                || item == 'u';
+
+            <li class="@(esVocal ? "rojo" : "")">@item</li>
+        }
+    }
+</ul>

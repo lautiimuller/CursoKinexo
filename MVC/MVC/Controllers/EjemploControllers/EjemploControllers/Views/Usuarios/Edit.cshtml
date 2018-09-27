@@ -1,0 +1,11 @@
+﻿@using EjemploControllers.Models
+@model Usuario
+
+<h1>Editar usuario</h1>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+
+    @Html.HiddenFor(x => x.Id)
+    @Html.Partial("_Form", Model)
+}
