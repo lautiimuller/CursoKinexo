@@ -25,7 +25,7 @@ namespace MVC.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(ContactModel model)
+        public ActionResult Create(NotaModel model)
         {
             return RedirectToAction("Index");
         }

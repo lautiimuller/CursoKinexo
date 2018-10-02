@@ -1,0 +1,6 @@
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Contract\bin\Debug\Contract.dll
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Contract\bin\Debug\Contract.pdb
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Contract\obj\Debug\Contract.csprojAssemblyReference.cache
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Contract\obj\Debug\Contract.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Contract\obj\Debug\Contract.dll
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Contract\obj\Debug\Contract.pdb

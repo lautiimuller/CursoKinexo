@@ -1,0 +1,6 @@
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\DataAccess\obj\Debug\DataAccess.pdb

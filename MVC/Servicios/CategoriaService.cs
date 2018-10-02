@@ -27,7 +27,6 @@ namespace Servicios
         {
             var categoryEdit = list.Where(x => x.Id == catEdit.Id).FirstOrDefault();
 
-            //VALIDO SI EL ID EXISTE
             if (categoryEdit != null)
             {
                 foreach (var item in list)

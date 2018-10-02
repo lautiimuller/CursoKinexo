@@ -1,0 +1,11 @@
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\bin\Debug\Servicios.dll
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\bin\Debug\Servicios.pdb
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\bin\Debug\Contract.dll
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\bin\Debug\DataAccess.dll
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\bin\Debug\Contract.pdb
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\bin\Debug\DataAccess.pdb
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\obj\Debug\Servicios.csprojAssemblyReference.cache
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\obj\Debug\Servicios.csproj.CopyComplete
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\obj\Debug\Servicios.dll
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\obj\Debug\Servicios.pdb
