@@ -9,3 +9,6 @@ C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\obj\Debug\Servicios
 C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\obj\Debug\Servicios.csproj.CopyComplete
 C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\obj\Debug\Servicios.dll
 C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\obj\Debug\Servicios.pdb
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\bin\Debug\EntityFramework.dll
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\bin\Debug\DataAccess.dll.config
+C:\Users\Lautaro\Desktop\Facultad\Curso Kinexo\MVC\Servicios\bin\Debug\EntityFramework.xml
