@@ -19,7 +19,7 @@ namespace MVC.Controllers
 
         public ActionResult Index()
         {
-            var categories = categoryService.GetCategories();
+            var categories = categoryService.Getcategory();
 
             IList<CategoriaModel> categories1 = new List<CategoriaModel>();
 

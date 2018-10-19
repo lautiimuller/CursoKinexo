@@ -1,5 +1,5 @@
 ﻿using Contract;
-using MVC.Servicios;
+
 using Servicios;
 using SimpleInjector;
 using SimpleInjector.Integration.Web;
@@ -28,6 +28,7 @@ namespace MVC
             container.Options.DefaultScopedLifestyle = new WebRequestLifestyle();
 
             container.Register<IService, CategoriaService>(Lifestyle.Scoped);
+            container.Register<IServicioNotas, NotasService>(Lifestyle.Scoped);
 
             container.RegisterMvcControllers(System.Reflection.Assembly.GetExecutingAssembly());
             container.RegisterMvcIntegratedFilterProvider();

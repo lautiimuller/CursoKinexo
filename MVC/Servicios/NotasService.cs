@@ -5,13 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MVC.Servicios
+namespace Servicios
 {
-    public class Service : IServicioNotas
+    public class NotasService : IServicioNotas
     {
-        public bool Create(Notas post)
+        public static List<Notas> list = new List<Notas>();
+
+        public List<Notas> Create(Notas post)
         {
-            throw new NotImplementedException();
+            var nota1 = new Notas { Id = post.Id, Active = post.Active, Date = post.Date, Descripcion = post.Descripcion, IdCategoria = post.IdCategoria, Titulo = post.Titulo };
+            list.Add(nota1);
+            return list;
         }
 
         public bool Delete(int id)
@@ -26,7 +30,7 @@ namespace MVC.Servicios
 
         public List<Notas> GetNews()
         {
-            throw new NotImplementedException();
+            return list;
         }
 
         public Notas SearchNews(int id)
