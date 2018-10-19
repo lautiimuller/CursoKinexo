@@ -7,6 +7,7 @@ namespace MVC.Models
 {
     public class UsuarioModel
     {
+
         public int Id { get; set; }
 
         public string Nick { get; set; }

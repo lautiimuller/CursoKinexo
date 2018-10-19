@@ -44,7 +44,7 @@ namespace Servicios
             return false;
         }
 
-        public List<Categoria> GetCategories()
+        public List<Categoria> Getcategory()
         {
             var ejemplo1 = new Categoria { Name = "Futbol", Active = true, Description = "Primera División Argentina", Id = 1 };
             var ejemplo2 = new Categoria { Name = "Tenis", Active = true, Description = "Tenis Argentino", Id = 2 };

@@ -10,12 +10,15 @@ namespace Contract
     {
         bool SaveCategory(Categoria category);
 
-        List<Categoria> GetCategories();
+        List<Categoria> Getcategory();
 
         bool EditCategory(Categoria category);
 
         Categoria SearchCategory(int id);
 
         bool DeleteCategory(int id);
+
+  
+
     }
 }

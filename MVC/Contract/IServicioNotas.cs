@@ -8,10 +8,11 @@ namespace Contract
 {
     public interface IServicioNotas
     {
-        bool Create(Notas post);
+        List<Notas> Create(Notas post);
         bool Edit(int id);
         bool Delete(int id);
         List<Notas> GetNews();
         Notas SearchNews(int id);
+        
     }
 }

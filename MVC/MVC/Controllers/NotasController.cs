@@ -1,4 +1,5 @@
-﻿using MVC.Models;
+﻿using Contract;
+using MVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,26 @@ namespace MVC.Controllers
 {
     public class NotasController : Controller
     {
+        private readonly IServicioNotas notasService;
+
+        public NotasController(IServicioNotas notasService)
+        {
+            this.notasService = notasService;
+        }
+
         public ActionResult Index()
         {
-            return View();
+            var notas = notasService.GetNews();
+
+            IList<NotaModel> notas1 = new List<NotaModel>();
+
+            foreach (var cat in notas)
+            {
+                var creada = new NotaModel { Id = cat.Id, Active = cat.Active, Descripcion = cat.Descripcion, Titulo = cat.Titulo };
+                notas1.Add(creada);
+            }
+
+            return View(notas1);
         }
 
         public ActionResult Create()
